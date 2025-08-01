@@ -91,6 +91,28 @@ game.start();
 </tr>
 </table>
 
+Minimal Example using CDN
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@rankdim/conway via CDN</title>
+    <script src="https://unpkg.com/@rankdim/conway@0.5.0/dist/conway.umd.cjs"></script>
+  </head>
+  <body>
+    <canvas id="demo"></canvas>
+    <script>
+      game = conway.conway("demo");
+      game.randomize(0.4);
+      game.start();
+    </script>
+  </body>
+</html>
+
+```
+
 
 | Option          | Type      | Default                        | Description                                           |
 | --------------- | --------- | ------------------------------ | ----------------------------------------------------- |
