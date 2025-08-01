@@ -1,0 +1,34 @@
+{
+  "name": "@rankdim/conway",
+  "version": "0.5.0",
+  "description": "A lightweight library for beautfiul game of life embeds.",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/conway.umd.cjs",
+  "module": "./dist/conway.js",
+  "exports": {
+    ".": {
+      "import": "./dist/conway.js",
+      "require": "./dist/conway.umd.cjs"
+    }
+  },
+  "scripts": {
+    "build": "vite --config vite.config.lib.js build",
+    "dev": "vite --config vite.config.docs.js",
+    "docs": "vite --config vite.config.docs.js build",
+    "preview": "vite --config vite.config.docs.js preview"
+  },
+  "keywords": [
+    "animation",
+    "simulation",
+    "canvas"
+  ],
+  "author": "rank",
+  "license": "MIT",
+  "devDependencies": {
+    "prismjs": "^1.30.0",
+    "vite": "^7.0.4"
+  }
+}

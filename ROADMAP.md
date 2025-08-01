@@ -1,0 +1,1 @@
+I plan to extend this library to general automaton rule and implement faster HashLife algorithm.

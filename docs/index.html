@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>conway</title>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="conway-left"></canvas>
+      <canvas id="conway-right"></canvas>
+      <div class="main">
+        <div class="canvas-container">
+          <canvas id="conway-1"></canvas>
+          <div style="display: flex; align-items: center">
+            <pre>
+    <code class="language-javascript">
+const game = conway("conway-1", {
+  cellSize: 20,
+  gridWidth: 20,
+  gridHeight: 20,
+  animationSpeed: 50,
+});
+
+game.place(patterns.glider, 1, 1);
+game.place(patterns.glider, 5, 5);
+game.place(patterns.glider, 9, 9);
+game.start();
+    </code>
+  </pre>
+          </div>
+        </div>
+
+        <div>
+          <p>A lightweight library for beautfiul game of life embeds.</p>
+          <div style="display: flex; padding-left: 2rem">
+            <pre><code class="language-bash">$ npm i @rankdim/conway</code></pre>
+          </div>
+        </div>
+
+        <div class="canvas-container">
+          <canvas id="conway-2"></canvas>
+          <pre>
+  <code class="language-javascript">
+const game = conway("conway-1", {
+  cellSize: 20,
+  gridWidth: 20,
+  gridHeight: 20,
+});
+
+game.place(patterns.pulsar, 3, 3);
+game.start();
+  </code>
+</pre>
+
+          <div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+              impedit ullam nesciunt, aut saepe quia, provident officia tempora
+              in repudiandae fugiat laboriosam eos. In vero placeat minima
+              dolorum obcaecati molestiae.
+            </p>
+          </div>
+        </div>
+
+        <div class="canvas-container">
+          <canvas id="conway-3"></canvas>
+          <canvas id="conway-4"></canvas>
+        </div>
+
+        <div class="canvas-container"></div>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

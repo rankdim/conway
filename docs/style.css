@@ -1,0 +1,106 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* border: 1px dashed yellow; */
+}
+
+p{
+  padding: 1.2rem
+}
+/* 
+div {
+  border: 1px dashed crimson;
+} */
+
+/* canvas {
+  border: 1px dotted black;
+} */
+
+.page-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-size: 2rem; */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 800px;
+  padding: 2em;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 8px;
+}
+
+#conway-1 {
+  height: 300px;
+  width: 300px;
+}
+
+#conway-2 {
+  height: 200px;
+  width: 200px;
+}
+#conway-3 {
+  height: 200px;
+  width: 200px;
+}
+
+#conway-4 {
+  height: 200px;
+  width: 200px;
+}
+
+#conway-left {
+  position: fixed;
+  left: 0px;
+}
+
+#conway-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.package-name {
+  padding: 2em;
+}
+
+@media (max-width: 575.98px) {
+  .main{
+    padding: 0;
+    margin-top: 20px;
+  }
+  #conway-1 {
+    height: 300px;
+    width: 300px;
+  }
+  #conway-left {
+    display: none;
+  }
+  #conway-right {
+    display: none;
+  }
+}
+
+
+pre[class*="language-"] {
+  background: none !important;
+  padding: 0 !important;
+  font-size: 12px !important;
+}
+
