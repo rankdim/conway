@@ -1,6 +1,13 @@
 # @rankdim/conway
 
-A lightweight library for beautfiul game of life embeds.
+
+<p align="center">
+    <img align="center" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/glider.gif">
+</p>
+
+<p align="center">
+    A lightweight library for beautfiul game of life embeds.
+</p>
 
 
 
@@ -45,6 +52,34 @@ $ npm i @rankdim/conway
 
 <table>
 <tr>
+<td>
+    <img align="center" width="250" height="250" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/pulsar.gif">
+  </td>
+  <td>
+
+```javascript
+import { conway, patterns } from "@rankdim/conway";
+
+const game = conway("conway-1", {
+  cellSize: 20,
+  gridWidth: 20,
+  gridHeight: 20,
+});
+
+game3.place(patterns.pulsar, 1, 1);
+game.start();
+```
+
+  </td>
+  
+</tr>
+</table>
+
+<table>
+<tr>
+<td>
+    <img align="center"  width="250" height="250" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/gun.gif">
+  </td>
   <td>
 
 ```javascript
@@ -61,14 +96,15 @@ game.start();
 ```
 
   </td>
-  <td>
-    <img align="center" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/gun.gif">
-  </td>
+  
 </tr>
 </table>
 
 <table>
 <tr>
+<td>
+    <img align="center" width="250" height="250" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/random.gif">
+  </td>
   <td>
 
 ```javascript
@@ -85,9 +121,7 @@ game.start();
 ```
 
   </td>
-  <td>
-    <img align="center" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/random.gif">
-  </td>
+  
 </tr>
 </table>
 
