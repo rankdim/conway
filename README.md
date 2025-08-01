@@ -62,7 +62,7 @@ game.start();
 
   </td>
   <td>
-    <img align="center" src="./.assets/gun.gif">
+    <img align="center" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/gun.gif">
   </td>
 </tr>
 </table>
@@ -86,7 +86,7 @@ game.start();
 
   </td>
   <td>
-    <img align="center" src="./.assets/random.gif">
+    <img align="center" src="https://raw.githubusercontent.com/rankdim/conway/refs/heads/main/.assets/random.gif">
   </td>
 </tr>
 </table>
